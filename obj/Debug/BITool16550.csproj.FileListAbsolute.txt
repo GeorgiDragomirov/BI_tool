@@ -1,0 +1,10 @@
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\bin\Debug\BITool16550.exe.config
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\bin\Debug\BITool16550.exe
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\bin\Debug\BITool16550.pdb
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.csprojAssemblyReference.cache
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.Form1.resources
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.Properties.Resources.resources
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.csproj.GenerateResource.cache
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.csproj.CoreCompileInputs.cache
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.exe
+C:\Users\Georgi Dragomirov\source\repos\BITool16550\BITool16550\obj\Debug\BITool16550.pdb
