@@ -1,4 +1,5 @@
-﻿using BITool16550.Services;
+﻿using BITool16550.Data;
+using BITool16550.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -65,6 +66,10 @@ namespace BITool16550
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {        
         }
     }
 }

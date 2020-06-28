@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 0D);
             this.StudGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button1 = new System.Windows.Forms.Button();
             this.RegStudButton = new System.Windows.Forms.Button();
@@ -51,16 +52,18 @@
             // 
             // StudGraph
             // 
-            chartArea5.Name = "ChartArea1";
-            this.StudGraph.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.StudGraph.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.StudGraph.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.StudGraph.Legends.Add(legend1);
             this.StudGraph.Location = new System.Drawing.Point(285, 12);
             this.StudGraph.Name = "StudGraph";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.StudGraph.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.Legend = "Legend1";
+            series1.Name = "Students";
+            series1.Points.Add(dataPoint1);
+            this.StudGraph.Series.Add(series1);
             this.StudGraph.Size = new System.Drawing.Size(286, 319);
             this.StudGraph.TabIndex = 0;
             this.StudGraph.Text = "chart1";
@@ -100,6 +103,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Show/Refresh Students Graph";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -211,7 +215,7 @@
             this.Controls.Add(this.StudGraph);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Registation";
             ((System.ComponentModel.ISupportInitialize)(this.StudGraph)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
